@@ -3,7 +3,7 @@ auto:	          true
 markdown:         rdiscount
 pygments:         true
 paginate:         1
-permalink:        /:categories/:year/:month/:day/:title/
+permalink:        /:title
 
 title:            "Goochin"
 url:              http://hi.imgoochin.com
