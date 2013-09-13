@@ -6,7 +6,7 @@ h1, h2, h3, h4, h5, h6 {color: black; margin:15px 0}
 h3 {font-size:16px}
 
 .poster {margin-bottom: 30px}
-.container {padding:5px; max-width:880px; background: white; padding: 20px; overflow: hidden}
+.container {max-width:880px; background: white; padding:10px; overflow: hidden}
 .banner {margin:0px auto; margin-bottom: 20px; margin-left:-16px; font-size:13px; font-family: Arial}
 .title {font-size:4.8em;}
 .content, blockquote{font-size:15px; line-height: 210%; font-family:'Open Sans','Helvetica Neue',Arial,"Hiragino Sans GB",sans-serif; color: #535354;}
@@ -108,14 +108,9 @@ pre {margin-bottom: 25px}
 
 /* rewrite bootstrap */
 
-@media (min-width: 800px) {
-    .container,
-    .navbar-static-top .container,
-    .navbar-fixed-top .container,
-    .navbar-fixed-bottom .container {}
-}
 @media only screen and (max-width: 480px) {
-    .title{font-size:2em;white-space:nowrap;max-width:100%;text-overflow:ellipsis;}
+    .container{padding:0 10px;}
+    .title{font-size:3em;white-space:nowrap;max-width:100%;text-overflow:ellipsis;}
 }
 
 /* bootstrap rc1 not support img auto responsive */
