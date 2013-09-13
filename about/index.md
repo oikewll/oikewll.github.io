@@ -9,4 +9,4 @@ Hi.goochin here~
 这个站是基于jekyll+git所建立，托管在github。
 欢迎fork，https://github.com/oikewll
 
-contact: weibo.com/goochin
+contact: [weibo.com/goochin](http://weibo.com/goochin)
