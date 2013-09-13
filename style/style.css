@@ -109,11 +109,13 @@ pre {margin-bottom: 25px}
 /* rewrite bootstrap */
 
 @media (min-width: 800px) {
-  .container,
-  .navbar-static-top .container,
-  .navbar-fixed-top .container,
-  .navbar-fixed-bottom .container {
+    .container,
+    .navbar-static-top .container,
+    .navbar-fixed-top .container,
+    .navbar-fixed-bottom .container {}
 }
+@media only screen and (max-width: 480px) {
+    .title{font-size:2em;white-space:nowrap;max-width:100%;text-overflow:ellipsis;}
 }
 
 /* bootstrap rc1 not support img auto responsive */
