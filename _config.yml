@@ -10,9 +10,10 @@ url:              http://hi.imgoochin.com
 feed:             /feed.xml
 author:
     name:         Goochin
+    grav:         /images/authors/guojing.jpg
     twitter:      twitter.com/goochin
     key:          goochin
-description:      "想活成什么摸样，与岁月无关~"
+description:      "少说多做"
 copyright:        "CopryRight Goochin 2013 by GitHub and Jekyll"
 headdesc:         "另一个地方"
 headkeys:         "设计,开发,思考,生活,豆瓣,读书,电影,音乐,游记"
